@@ -1,5 +1,12 @@
 {
-  "private": true,
+  "name": "eslint-plugin-import-sort-diferente",
+  "version": "1.0.2",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "description": "Design System for Mercado Diferente",
   "type": "commonjs",
   "scripts": {
     "pretest": "prettier --check . && eslint . --report-unused-disable-directives",
