@@ -12,7 +12,6 @@ const READ_MORE =
 
 const FILES_TO_COPY = [
   { src: "LICENSE" },
-  { src: "package-real.json", dest: "package.json" },
   {
     src: "README.md",
     transform: (content) => content.replace(/<!--[^]*$/, READ_MORE),
